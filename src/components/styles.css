@@ -1,0 +1,31 @@
+
+/* Only component styles were included here 
+    Check App.css for other front page styles
+*/
+
+
+.card {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    background-color: bisque;
+}
+
+.cardlist {
+    border: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 70px 25px;
+}
+
+.search-bar {
+    font-size: medium;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
